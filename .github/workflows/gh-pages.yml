@@ -27,7 +27,7 @@ jobs:
 
       # Runs markdown-docs
       - name: Generate HTML from Markdown
-        uses: ldeluigi/markdown-docs@latest
+        uses: ldeluigi/markdown-docs@v0
         with:
           src: ${{ vars.DOC_PATH }}
           dst: generated-docs
