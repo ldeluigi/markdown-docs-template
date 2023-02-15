@@ -29,7 +29,7 @@ jobs:
       - name: Generate HTML from Markdown
         uses: ldeluigi/markdown-docs@v0
         with:
-          src: ${{ vars.DOC_PATH }}
+          src: .
           dst: generated-docs
           title: Markdown Docs
           language: en
